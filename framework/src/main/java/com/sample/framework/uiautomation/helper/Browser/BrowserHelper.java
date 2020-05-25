@@ -10,12 +10,7 @@ import java.util.Set;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
-/**
- * @author balaji
- * @Creation_Date:  20 Nov 2017 
- * @ClassName: BrowserHelper.java
- * @LastModified_Date:  20 Nov 2017 
- */
+
 public class BrowserHelper {
 
 	private WebDriver driver;

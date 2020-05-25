@@ -11,12 +11,7 @@ import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 
 
-/**
- * @author balaji
- * @Creation_Date:  20 Nov 2017 
- * @ClassName: AlertHelper.java
- * @LastModified_Date:  20 Nov 2017 
- */
+
 public class AlertHelper extends TestBase {
 
 	private WebDriver driver;

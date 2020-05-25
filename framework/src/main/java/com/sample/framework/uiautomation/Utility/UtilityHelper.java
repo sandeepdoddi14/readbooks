@@ -12,12 +12,7 @@ import com.sample.framework.uiautomation.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-/**
- * @author balaji
- * @Creation_Date:  1 Dec 2017 
- * @ClassName: UtilityHelper.java
- * @LastModified_Date:  1 Dec 2017 
- */
+
 public class UtilityHelper {
 	
 	/**

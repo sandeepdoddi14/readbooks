@@ -13,12 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.sample.framework.uiautomation.base.TestBase;
 
 
-/**
- * @author balaji
- * @Creation_Date:  20 Nov 2017 
- * @ClassName: JavaScriptHelper.java
- * @LastModified_Date:  20 Nov 2017 
- */
+
 public class JavaScriptHelper extends TestBase{
 	private WebDriver driver;
 	GenericHelper objGenHelper;
@@ -99,14 +94,7 @@ public class JavaScriptHelper extends TestBase{
 		}
 	}
 
-	/**
-	 * This method scrolls to given element
-	 * @author shikhar
-	 * @param driver
-	 * @param element
-	 * @param text
-	 * @return
-	 */
+
 	public boolean scrollToElement(WebDriver driver, WebElement element, String text) {
 		try {
 			executeScript("window.scrollTo(arguments[0],arguments[1])", element.getLocation().x,

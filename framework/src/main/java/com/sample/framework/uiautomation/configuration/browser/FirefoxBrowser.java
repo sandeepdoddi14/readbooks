@@ -11,12 +11,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 
-/**
- * @author balaji
- * @Creation_Date:  20 Nov 2017 
- * @ClassName: FirefoxBrowser.java
- * @LastModified_Date:  20 Nov 2017 
- */
+
 public class FirefoxBrowser {
 	public Capabilities getFirefoxCapabilities() {
 		DesiredCapabilities firefox = DesiredCapabilities.firefox();

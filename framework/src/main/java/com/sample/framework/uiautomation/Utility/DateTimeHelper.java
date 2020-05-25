@@ -18,12 +18,7 @@ import java.util.*;
 import static java.time.temporal.TemporalAdjusters.firstDayOfMonth;
 import static java.time.temporal.TemporalAdjusters.lastDayOfMonth;
 
-/**
- * @author balaji
- * @Creation_Date: 20 Nov 2017
- * @ClassName: DateTimeHelper.java
- * @LastModified_Date: 20 Feb 2018
- */
+
 public class DateTimeHelper {
 
 	UtilityHelper objUtil = new UtilityHelper();

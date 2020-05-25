@@ -9,12 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 
-/**
- * @author balaji
- * @Creation_Date:  20 Nov 2017 
- * @ClassName: ChromeBrowser.java
- * @LastModified_Date:  20 Nov 2017 
- */
+
 public class ChromeBrowser {
 
 	public ChromeOptions getChromeCapabilities() {

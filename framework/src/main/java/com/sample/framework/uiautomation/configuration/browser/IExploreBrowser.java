@@ -10,12 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 
 
-/**
- * @author balaji
- * @Creation_Date:  20 Nov 2017 
- * @ClassName: IExploreBrowser.java
- * @LastModified_Date:  20 Nov 2017 
- */
+
 public class IExploreBrowser {
 
 	public InternetExplorerOptions getIExplorerOptions() {

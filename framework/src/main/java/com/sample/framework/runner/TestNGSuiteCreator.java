@@ -3,7 +3,7 @@ package com.sample.framework.runner;
 import com.sample.framework.beans.Configuration;
 import com.sample.framework.importExport.ReadTestCases;
 import com.sample.framework.importExport.ReadTestConfiguration;
-import com.sample.framework.utils.FileUtilsSerialized;
+import com.sample.framework.uiautomation.Utility.FileUtilsSerialized;
 
 public class TestNGSuiteCreator {
 

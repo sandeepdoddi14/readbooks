@@ -18,12 +18,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-/**
- * @author balaji
- * @Creation_Date:  20 Nov 2017 
- * @ClassName: WaitHelper.java
- * @LastModified_Date:  20 Nov 2017 
- */
 public class WaitHelper extends TestBase {
 	private WebDriver driver;
 	private static Logger Log = Logger.getLogger(WaitHelper.class);
@@ -84,12 +78,7 @@ public class WaitHelper extends TestBase {
 		}
 	}
 
-	/**
-	 * This method allows page to Load for 10 seconds
-	 * 
-	 * @param driver
-	 * @author shikhar
-	 */
+
 	public void waitForPageToLoad() {
 		try {
 			driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.MINUTES);
@@ -98,13 +87,7 @@ public class WaitHelper extends TestBase {
 		}
 	}
 
-	/**
-	 * This method wait for an element to be clickable using Explicit wait
-	 * 
-	 * @param driver
-	 * @param element
-	 * @author shikhar
-	 */
+
 	public void waitElementToBeClickable(WebElement element) {
 		try {
 			WebDriverWait wait = getWait(20, 5);
@@ -114,14 +97,8 @@ public class WaitHelper extends TestBase {
 		}
 	}
 
-	/**
-	 * This method wait and clicks on the element
-	 * 
-	 * @param driver
-	 * @param element
-	 * @param text
-	 * @return
-	 */
+
+
 	public boolean waitAndClickElement(WebElement element, String text) {
 		try {
 			WebDriverWait wait = getWait(20, 5);
@@ -161,12 +138,7 @@ public class WaitHelper extends TestBase {
 		return false;
 	}
 
-	/**
-	 * This method wait for an element to be visible using Explicit wait
-	 * @author shikhar
-	 * @param driver
-	 * @param element
-	 */
+
 	public void waitElementToBeVisible(WebElement element) {
 		try {
 			WebDriverWait wait = getWait(20, 5);
@@ -178,13 +150,7 @@ public class WaitHelper extends TestBase {
 		}
 	}
 
-	/**
-	 * This method wait for a text to be available in an element using Explicit wait
-	 * @param driver
-	 * @param element
-	 * @param text
-	 * @author shikhar
-	 */
+
 	public void waitForTextToBeAvailable(WebDriver driver, WebElement element, String text) {
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, 20);

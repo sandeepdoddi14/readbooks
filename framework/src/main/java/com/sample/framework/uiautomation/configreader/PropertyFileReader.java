@@ -4,17 +4,11 @@
 package com.sample.framework.uiautomation.configreader;
 
 import java.util.Properties;
-
 import com.sample.framework.uiautomation.base.TestBase;
 import com.sample.framework.uiautomation.configuration.browser.BrowserType;
 import com.sample.framework.uiautomation.Utility.ResourceHelper;
 
-/**
- * @author balaji
- * @Creation_Date: 20 Nov 2017
- * @ClassName: PropertyFileReader.java
- * @LastModified_Date: 20 Nov 2017
- */
+
 public class PropertyFileReader implements ConfigReader {
 
     private Properties prop = null;

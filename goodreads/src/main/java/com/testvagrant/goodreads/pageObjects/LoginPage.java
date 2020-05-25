@@ -2,7 +2,6 @@ package com.testvagrant.goodreads.pageObjects;
 
 import com.sample.framework.uiautomation.base.TestBase;
 import com.sample.framework.uiautomation.helper.genericHelper.GenericHelper;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -26,7 +25,7 @@ public class LoginPage extends TestBase {
         genericHelper.setElementText(password, userPassword, "Password");
         genericHelper.submitForm(signInButton, "Sign In");
 
-        Assert.assertTrue(driver.getTitle().equals("Recent updates | Goodreads"),"Error in Logging In");
+        Assert.assertTrue(driver.getTitle().equals("Recent updates | Goodreads"), "Error in Logging In");
     }
 
 

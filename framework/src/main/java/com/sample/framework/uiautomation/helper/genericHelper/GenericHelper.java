@@ -16,12 +16,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.util.Random;
 
-/**
- * @author balaji
- * @Creation_Date: 20 Nov 2017
- * @ClassName: GenericHelper.java
- * @LastModified_Date: 20 Nov 2017
- */
+
 public class    GenericHelper extends TestBase {
 
     private static final Logger log = Logger.getLogger(GenericHelper.class);
@@ -242,7 +237,6 @@ public class    GenericHelper extends TestBase {
      *
      * @param element
      * @param text    info text for WebElement
-     * @author shikhar
      */
     public boolean checkVisbilityOfElement(WebElement element, String text) {
         try {
@@ -265,7 +259,6 @@ public class    GenericHelper extends TestBase {
      *
      * @param element
      * @param text    info text for WebElement
-     * @author shikhar
      */
     public boolean checkInvisbilityOfElement(WebElement element, String text) {
         try {

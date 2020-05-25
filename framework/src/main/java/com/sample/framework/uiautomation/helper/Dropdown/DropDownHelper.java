@@ -13,12 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 
-/**
- * @author balaji
- * @Creation_Date:  20 Nov 2017 
- * @ClassName: DropdownHelper.java
- * @LastModified_Date:  20 Nov 2017 
- */
+
 public class DropDownHelper extends TestBase {
 
 	private WebDriver driver;
@@ -30,11 +25,6 @@ public class DropDownHelper extends TestBase {
 	}
 
 	
-//	public void SelectUsingVisibleValue(WebElement element,String visibleValue) {
-//		Select select = new Select(element);
-//		select.selectByVisibleText(visibleValue);
-//		Log.info("Locator : " + element + " Value : " + visibleValue);
-//	}
 
 	public String getSelectedValue(WebElement element) {
 		String value = new Select(element).getFirstSelectedOption().getText();
@@ -42,12 +32,7 @@ public class DropDownHelper extends TestBase {
 		return value;
 	}
 	
-//	public void SelectUsingIndex(WebElement element,int index) {
-//		Select select = new Select(element);
-//		select.selectByIndex(index);
-//		Log.info("Locator : " + element + " Value : " + index);
-//	}
-	
+
 	
 	public List<String> getAllDropDownValues(WebElement locator) {
 		Select select = new Select(locator);
@@ -70,7 +55,6 @@ public class DropDownHelper extends TestBase {
 	 * @param text : Element name
 	 * 
 	 * @return true/false
-	 * @author shikhar
 	 * @return
 	 * @since 25/10/2017
 	 */
@@ -95,7 +79,6 @@ public class DropDownHelper extends TestBase {
 	 * @param element,Index,
 	 *            Name of the element
 	 * @return true/false
-	 * @author shikhar
 	 * @return
 	 * @since 25/10/2017
 	 */

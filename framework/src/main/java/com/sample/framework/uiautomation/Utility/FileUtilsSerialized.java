@@ -1,4 +1,4 @@
-package com.sample.framework.utils;
+package com.sample.framework.uiautomation.Utility;
 
 import com.sample.framework.beans.Configuration;
 
